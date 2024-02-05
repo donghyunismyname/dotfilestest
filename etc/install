@@ -12,7 +12,7 @@ cat <<EOF
    ╚═════╝  ╚═════╝   ╚═╝   ╚═╝     ╚═╝╚══════╝╚══════╝╚══════╝
 EOF
 
-apt install wget vim curl
+apt install wget vim curl zsh
 
 # Check minimal dependencies
 if ! command -v git &> /dev/null; then echo "ERROR: git not found. (Try $APT install git)"; exit; fi
