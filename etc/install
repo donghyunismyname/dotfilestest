@@ -43,9 +43,10 @@ set -e
 cd ~
 
 git clone --recursive ${GIT_FLAGS} ${GIT_REPO} ~/.dotfiles
-cd ~/.dotfiles && $PYTHON install.py
-
-echo "All Done!"
 
 echo "source ~/.dotfiles/moon/vimrc" >> ~/.dotfiles/vim/vimrc
 echo "source ~/.dotfiles/moon/zshrc" >> ~/.dotfiles/zsh/zshrc
+
+cd ~/.dotfiles && $PYTHON install.py
+
+echo "All Done!"
