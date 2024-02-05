@@ -1,0 +1,2 @@
+apt install wget vim curl zsh
+curl -fsSL https://raw.githubusercontent.com/leekyungmoon/dotfiles/master/etc/install | bash
