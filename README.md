@@ -10,7 +10,7 @@ Installation
 
 ```bash
 # curl -fsSL https://dotfiles.wook.kr/etc/install | bash
-curl -fsSL https://github.com/leekyungmoon/dotfiles/blob/master/etc/install | bash
+curl -fsSL https://raw.githubusercontent.com/leekyungmoon/dotfiles/master/etc/install | bash
 ```
 
 <details><summary>
